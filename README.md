@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# LinearRegressionApp
+# shiny-ols-app
 
 <!-- badges: start -->
 
@@ -25,9 +25,9 @@ OLS, this app provides an accessible and intuitive learning environment.
 
 ## 🧠 Learning Goals
 
-- Understand regression coefficients: intercept & slope  
-- Visualize and decompose variance (SST = SSR + SSE)  
-- Learn how model fit is assessed via $R^2$  
+- Understand regression coefficients: intercept & slope\
+- Visualize and decompose variance (SST = SSR + SSE)\
+- Learn how model fit is assessed via $R^2$\
 - Practice interpretation with hints and questions
 
 ## 🚀 Features
@@ -51,5 +51,5 @@ website](http://edgar-treischl.de/projects) or run via:
 
 ``` r
 library(shiny)
-runGitHub("LinearRegressionApp", "edgar-treischl", ref="main")
+runGitHub("shiny-ols-app", "edgar-treischl", ref="main")
 ```
